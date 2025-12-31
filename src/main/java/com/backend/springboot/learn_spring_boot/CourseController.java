@@ -13,7 +13,9 @@ public class CourseController {
     public List<Course> getCourseDetail(){
         return Arrays.asList(
                 new Course(1, "java", "akash"),
-                new Course(2, "C++", "aman")
+                new Course(2, "C++", "aman"),
+                new Course(3, "AWS", "ajit")
+
         );
 
     }
